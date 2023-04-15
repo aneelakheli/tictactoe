@@ -1,11 +1,16 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <p>Tic Tac Toe</p>
-    </div>
+    <>
+      <button className="square"> X </button>
+      <button className="square"> X </button>
+      <button className="square"> X </button>
+      <button className="square"> X </button>
+      <button className="square"> X </button>
+      <button className="square"> X </button>
+      <button className="square"> X </button>
+      <button className="square"> X </button>
+    </>
   );
 }
-
-export default App;
